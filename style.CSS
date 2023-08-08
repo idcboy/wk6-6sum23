@@ -1,0 +1,125 @@
+
+
+
+
+body{
+    background-color: rgb(9, 253, 245) ;
+    color: rgba(84, 101, 231, 0.822);
+    text-align: center;
+}
+nav{
+   text-align: right;
+}
+footer{
+    text-align: center;
+    
+}
+
+#memepictures{
+    margin-right: 200px;
+    text-align: center;
+}
+
+#body text{
+    
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+.blink {
+animation: blink-animation 1s steps(5, start) infinite;
+-webkit-animation: blink-animation 1s steps(5, start) infinite ;
+
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+
+
+.startButton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .stopButton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+    background-color: #dd3434;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #7a1e1e}
+  
+  .button:active {
+    background-color: #7a1e1e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+@keyframes spin3D {
+  from { transform: rotateY(0deg) }
+  to { transform: rotateY(360deg) }
+}
+
+@keyframes spin3D2 {
+    from { transform: rotateX(0deg) }
+    to { transform: rotateX(360deg) }
+  }
+
+#memeimage {
+    background: url(memeimage.jpg);
+}
+
+#memeimage2 {
+    background: url(memeimage2.jpg);
+}
+
+/*.spinhov3D {
+  animation-name: spin3D;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  
+  animation-timing-function: ease-in-out;
+}*/
+
+
+/* linear | ease | ease-in | ease-out | ease-in-out */
+
+
+
+
+
+
+
+
+
